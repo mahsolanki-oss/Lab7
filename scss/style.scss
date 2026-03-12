@@ -1,0 +1,8 @@
+$picture-width: 200px;
+$picuture-height: 200px;
+
+.picture-size {
+  width: $picture-width;
+  height: $picuture-height;
+  object-fit: cover;
+}
