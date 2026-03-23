@@ -1,14 +1,9 @@
-<?php include 'includes/header.php'; ?>
+<?php $title = "Home"; ?>
+<?php require_once './includes/header.php'; ?>
 
-<h2>Welcome</h2>
+<div class="container mt-5">
+    <h1>Lab 7 / Lab 8</h1>
+    <p><a href="viewrecords.php">View Records</a></p>
+</div>
 
-<p>
-  Welcome to the Animals website. Explore different topics related to animals,
-  their behavior, survival patterns, and the way they interact with nature.
-</p>
-
-<p>
-  Use the navigation menu above to move through the sections.
-</p>
-
-<?php include 'includes/footer.php'; ?>
+<?php require_once './includes/footer.php'; ?>
